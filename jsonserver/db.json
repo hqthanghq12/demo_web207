@@ -1,0 +1,46 @@
+{
+  "phone": [
+    {
+      "ten": "S22 ultra123",
+      "hang": "SAMSUNG",
+      "gia": "160000",
+      "id": "SP001"
+    },
+    {
+      "ten": "OPPO a57",
+      "hang": "OPPO",
+      "gia": "160000",
+      "id": "SP002"
+    },
+    {
+      "id": "SP003",
+      "ten": "test",
+      "hang": "SAMSUNG",
+      "gia": "11111"
+    },
+    {
+      "ten": "12",
+      "hang": "OPPO",
+      "gia": "111",
+      "id": "SP004"
+    },
+    {
+      "id": "SP005",
+      "ten": "2",
+      "hang": "SAMSUNG",
+      "gia": "11111"
+    },
+    {
+      "id": "SP006",
+      "ten": "eee",
+      "hang": "SAMSUNG",
+      "gia": "11111"
+    },
+    {
+      "id": "1111",
+      "ten": "1111",
+      "hang": "SAMSUNG",
+      "gia": "11111"
+    }
+  ]
+}

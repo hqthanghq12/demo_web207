@@ -1,0 +1,28 @@
+<div>
+    <h5 class="text-center">{{title}}</h5>
+    <div>
+        <a href="#!/phone/add">
+            <button class="btn btn-success">Thêm</button>
+        </a>
+        
+        <table class="table text-center">
+            <thead>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Hãng</th>
+                <th>Giá</th>
+                <th>Thao tác</th>
+            </thead>
+            <tr ng-repeat="item in listPhone">
+                <td>{{ item.id  }}</td>
+                <td>{{ item.ten }}</td>
+                <td>{{ item.hang}}</td>
+                <td>{{ item.gia}}</td>
+                <td>
+                    <a href="#!/detail/phone/{{item.id}}"><button class="btn btn-warning">Chi tiết</button></a>
+                    <button ng-click="onDelete(item.id)" class="btn btn-danger">Xóa</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
